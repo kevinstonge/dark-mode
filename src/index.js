@@ -22,7 +22,7 @@ const App = () => {
   return (
     <div className={darkMode ? "dark-mode App" : "App"}>
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
-      <Charts coinData={coinData} />
+      <Charts coinData={coinData} darkMode={darkMode} />
     </div>
   );
 };
